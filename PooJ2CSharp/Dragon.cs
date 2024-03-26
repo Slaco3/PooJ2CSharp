@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PooJ2CSharp
 {
-    class Dragon : Animal
+    class Dragon : Animal, IPilotage
     {
 
         public Dragon()

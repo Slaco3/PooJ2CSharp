@@ -10,10 +10,10 @@ public class Program
 
 
         dragon.Moove();
-        griffin.Moove();
-        dragon.Sleep();
+        //griffin.Moove();
+        //dragon.Sleep();
 
-        Console.WriteLine("\n");
-        Console.WriteLine(dragon.Name);
+        //Console.WriteLine("\n");
+        //Console.WriteLine(dragon.Name);
     }
 }
