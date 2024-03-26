@@ -8,6 +8,14 @@ public class Program
 {
     static void Main(string[] args)
     {   
+        // monDragon IMPLEMENTE L'INTERFACE PILOTAGE et hérite de Animal
+        Vehicle vehicle = new Vehicle();
+        vehicle.Moove2();
+        
+        Dragon monDragon = new Dragon();
+        monDragon.Moove2();
+        monDragon.Moove();
+
 
         // CREATION LISTE ANIMAUX
         IList<Animal> animals = new List<Animal>();
