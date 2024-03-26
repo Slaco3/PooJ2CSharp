@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using PooJ2CSharp;
 
-class Program
+public class Program
 {
     static void Main(string[] args)
     {
