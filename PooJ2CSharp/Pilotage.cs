@@ -8,6 +8,6 @@ namespace PooJ2CSharp
 {
     internal interface IPilotage
     {
-        public void Moove();
+        public void Moove2();
     }
 }

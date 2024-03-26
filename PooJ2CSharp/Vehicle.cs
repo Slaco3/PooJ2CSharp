@@ -10,7 +10,7 @@ namespace PooJ2CSharp
     {
         public Vehicle() { }
 
-        public void Moove()
+        public void Moove2()
         {
             Console.WriteLine("Le véhicule avance");
         }

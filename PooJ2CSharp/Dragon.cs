@@ -17,9 +17,15 @@ namespace PooJ2CSharp
         {
             this.Name = Name;
         }
+
         public override void Moove()
         {
-            Console.WriteLine("Je suis un dragon qui bouge");
+            Console.WriteLine("Je suis un dragon qui bouge (depuis animal)");
+        }
+
+        public void Moove2()
+        {
+            Console.WriteLine("Je suis un dragon qui bouge (depuis interface)");
         }
 
         public override void Sleep()

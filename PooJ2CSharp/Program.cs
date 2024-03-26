@@ -5,11 +5,20 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Animal dragon = new Dragon();
-        Animal griffin = new Griffin("Griffon");
+        Dragon dragon = new Dragon();
+        Griffin griffin = new Griffin("Griffon");
 
+        Vehicle vehicle = new Vehicle();
+
+
+        vehicle.Moove2();
 
         dragon.Moove();
+        dragon.Moove2();
+        
+        Console.WriteLine(griffin.Name);
+
+
         //griffin.Moove();
         //dragon.Sleep();
 
