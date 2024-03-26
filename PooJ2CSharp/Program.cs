@@ -9,8 +9,11 @@ public class Program
         Animal griffin = new Griffin("Griffon");
 
 
-        Console.WriteLine(animalRandom.Name);
-        animalRandom.Moove();
-        animalLion.Moove();
+        dragon.Moove();
+        griffin.Moove();
+        dragon.Sleep();
+
+        Console.WriteLine("\n");
+        Console.WriteLine(dragon.Name);
     }
 }
