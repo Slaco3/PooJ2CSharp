@@ -5,8 +5,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Animal animalRandom = new Animal();
-        Animal animalLion = new Animal("Simba");
+        Animal dragon = new Dragon();
+        Animal griffin = new Griffin("Griffon");
 
 
         Console.WriteLine(animalRandom.Name);

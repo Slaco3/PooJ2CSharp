@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PooJ2CSharp
 {
-    class Animal
+    abstract class Animal
     {
         public string Name;
 
@@ -20,17 +20,35 @@ namespace PooJ2CSharp
             this.Name = Name;
         }
 
-        public void Moove()
+        public abstract void Moove();
+
+        public abstract void Sleep();
+
+    }
+
+    class Dragon : Animal
+    {
+        public override void Moove()
         {
-            Console.WriteLine("Moove");
+            Console.WriteLine("Je suis un dragon qui bouge");
         }
 
-        public void Sleep()
+        public new void Sleep()
         {
-            Console.WriteLine("Sleep");
+            Console.Write("Je suis un dragon qui dort");
+        }
+    }
+
+    class Griffin : Animal
+    {
+        public override void Moove()
+        {
+            Console.WriteLine("Je suis un Griffon qui bouge");
         }
 
-
-
+        public new void Sleep()
+        {
+            Console.Write("Je suis un Griffon qui dort");
+        }
     }
 }
