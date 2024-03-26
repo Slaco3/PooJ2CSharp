@@ -8,6 +8,8 @@ class Program
         Animal animalRandom = new Animal();
         Animal animalLion = new Animal("Simba");
 
+
+        Console.WriteLine(animalRandom.Name);
         animalRandom.Moove();
         animalLion.Moove();
     }
