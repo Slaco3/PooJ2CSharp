@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace PooJ2CSharp
 {
@@ -11,10 +12,13 @@ namespace PooJ2CSharp
         public Griffin()
         {
             this.Name = "Griffin";
+
         }
-        public Griffin(string Name)
+        public Griffin(string name, Rarety rarety, int id)
         {
-            this.Name = Name;
+            this.Id = id;
+            this.Name = name;
+            this.Rarety = rarety;
         }
         public override void Moove()
         {

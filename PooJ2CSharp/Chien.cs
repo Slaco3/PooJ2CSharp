@@ -13,7 +13,7 @@ namespace PooJ2CSharp
         {
             this.Name = "CHIEN-CHIEN";
         }
-        public Dog(string name, string rarety, int id)
+        public Dog(string name, Rarety rarety, int id)
         {
             this.Id = id;   
             this.Name = name;
